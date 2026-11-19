@@ -22,14 +22,15 @@ ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序�
 
 2. **文件结构不要拆分**
 将整个 ugN2N 文件夹完整解压到本地任意目录，**不要单独提取 client.exe 运行**
+    
+  目录结构参考：    
+  ugN2N/    
+    client.exe    
+    edge.exe # n2n 底层客户端程序    
+    supernode.exe # 本地自建房间中继服务    
+    client.json # 本地配置文件    
 
-  目录结构参考：
-  ugN2N/
-    client.exe
-    edge.exe # n2n 底层客户端程序
-    supernode.exe # 本地自建房间中继服务
-    client.json # 本地配置文件
-  
+          
 
 3. **启动方式**
 双击 `client.exe`，程序会申请管理员权限（创建虚拟网卡必须），随后自动在浏览器打开本地管理页面。
