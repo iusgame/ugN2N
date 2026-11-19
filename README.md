@@ -23,13 +23,13 @@ ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序�
 2. **文件结构不要拆分**
 将整个 ugN2N 文件夹完整解压到本地任意目录，**不要单独提取 client.exe 运行**
 
-目录结构参考：
-ugN2N/
-client.exe
-edge.exe # n2n 底层客户端程序
-supernode.exe # 本地自建房间中继服务
-client.json # 本地配置文件
-
+  目录结构参考：
+  ugN2N/
+    client.exe
+    edge.exe # n2n 底层客户端程序
+    supernode.exe # 本地自建房间中继服务
+    client.json # 本地配置文件
+  
 
 3. **启动方式**
 双击 `client.exe`，程序会申请管理员权限（创建虚拟网卡必须），随后自动在浏览器打开本地管理页面。
@@ -98,23 +98,24 @@ edge.exe、supernode.exe、本地后台服务均后台静默运行，不会弹�
 ---
 
 ### 不定期更新邀请码（一次性，用完即失效）
-2T5hvvM6o3CT
-2YWSm8N65ajs
-59sjB8qPS6aU
-6FGMth4Whk59
-8T5j2pmH5BhU
-A522MYtomkY4
-CyfRw974c4JZ
-P22cFbh3VgC7
-Q2n7x5JVE2cd
-TiPv76U54yEq
-cU7v5nAEy65R
-dSUKJg4855pc
-eGW8F6uNe2t2
-efD3UTH5d45t
-jeA744uU6QPn
-k2DWi24w9DfG
-nC2aG84oD5xW
-oaj8EY8T39zM
-w45BZ2wzV5Pb
-ziB9m3YrY23B
+2T5hvvM6o3CT    
+2YWSm8N65ajs    
+59sjB8qPS6aU    
+6FGMth4Whk59    
+8T5j2pmH5BhU    
+A522MYtomkY4    
+CyfRw974c4JZ    
+P22cFbh3VgC7    
+Q2n7x5JVE2cd    
+TiPv76U54yEq    
+cU7v5nAEy65R    
+dSUKJg4855pc    
+eGW8F6uNe2t2    
+efD3UTH5d45t    
+jeA744uU6QPn    
+k2DWi24w9DfG    
+nC2aG84oD5xW    
+oaj8EY8T39zM    
+w45BZ2wzV5Pb    
+ziB9m3YrY23B    
+    
