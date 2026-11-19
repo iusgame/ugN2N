@@ -26,8 +26,9 @@ ugN2N/
   client.exe
   edge.exe          # n2n 底层客户端程序
   supernode.exe     # 本地自建房间中继服务
+
   client.json       # 本地配置文件
-启动方式
+  启动方式
 双击 client.exe，程序会申请管理员权限（创建虚拟网卡必须），随后自动在浏览器打开本地管理页面。
 管理页面仅监听本机 127.0.0.1，外部网络无法访问。
 edge.exe、supernode.exe、本地后台服务均后台静默运行，不会弹出黑框控制台。
@@ -81,7 +82,7 @@ edge 启动瞬间退出、无虚拟网卡
 如需彻底清理虚拟网卡：Windows 设备管理器里卸载 TAP-Windows 适配器；完全不再使用可以一并卸载 tap-windows6 驱动
 
 不定期更新邀请码（一次性，用完即失效）
-plaintext
+
 2T5hvvM6o3CT
 2YWSm8N65ajs
 59sjB8qPS6aU
