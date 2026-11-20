@@ -2,10 +2,11 @@
 一款基于 N2N 内核开发的游戏联机 GUI 客户端
 官网 → https://uglife.cn
 
+<img width="2112" height="1185" alt="截图1" src="https://github.com/user-attachments/assets/7ec53f28-adf4-4619-813b-d3416b3ccbb3" />
+<img width="2109" height="1170" alt="截图2" src="https://github.com/user-attachments/assets/99022110-f12e-431a-a9bd-78d0c4d3a891" />
+
+
 本程序打包分发附带 ntop/n2n‑v3 的 edge.exe / supernode.exe，该组件遵循 GPL‑v3 开源协议，对应源码可查阅上游 ntop/n2n 仓库。ugN2N GUI 为独立闭源程序，进程间调用外部 n2n 可执行文件，不修改 n2n 内核源码。        
-ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序，不开放客户端源码。
-❌ 禁止反编译、逆向工程、修改程序、二次打包、转卖分发；
-✅ 允许个人非商用场景自由使用。
 
 中央大厅服务器为个人兴趣公益托管，稳定性不做承诺。遇到恶性 Bug 欢迎反馈，我会抽空择机修复。
 如果你觉得这个工具好用，愿意支持开发者，可以酌情打赏，感谢支持。
@@ -13,10 +14,13 @@ ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序�
 
 ## ugN2N 客户端使用说明
 ### 一、安装前置与部署
-1. **安装 TAP 虚拟网卡驱动（必需）**
-首次运行前需要 `tap-windows6` 驱动（OpenVPN 官方驱动）
+1. **安装 TAP 虚拟网卡驱动 和 WinIPBroadcast-1.6.exe（必需）**
+首次运行前需要 `tap-windows6` 驱动（OpenVPN 官方驱动）和 WinIPBroadcast-1.6.exe
+点击压缩包内 install.bat 安装自带驱动安装包。
+
+也可以自行搜索下载
 驱动下载：https://github.com/OpenVPN/tap-windows6/releases
-也可以直接使用压缩包内自带驱动安装包。
+
 
 安装驱动后建议重启电脑；未安装驱动启动程序会报错：
 `No Windows tap devices found, did you run tapinstall.exe?`
@@ -29,9 +33,11 @@ ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序�
     client.exe    
     edge.exe # n2n 底层客户端程序    
     supernode.exe # 本地自建房间中继服务    
-    client.json # 本地配置文件    
-
-          
+    client.json # 本地配置文件 
+    install.bat # 一键安装TAP 虚拟网卡驱动 和 WinIPBroadcast-1.6.exe
+    tap-windows.exe # 虚拟网卡驱动
+    WinIPBroadcast-1.6.exe # 广播转发服务
+ 
 
 3. **启动方式**
 双击 `client.exe`，程序会申请管理员权限（创建虚拟网卡必须），随后自动在浏览器打开本地管理页面。
@@ -102,6 +108,9 @@ edge.exe、supernode.exe、本地后台服务均后台静默运行，不会弹�
 中央大厅为公益个人服务，不保证可用性，因使用本软件产生的一切网络风险、法律责任，均由使用者自行承担。        
 禁止用于翻墙、非法组网等一切违反法律法规的用途。        
 
+ugN2N 为闭源免费软件，仅提供编译完成的 Windows 可执行程序，不开放客户端源码。
+❌ 禁止反编译、逆向工程、修改程序、二次打包、转卖分发；
+✅ 允许个人非商用场景自由使用。
 ---
 
 ### 不定期更新邀请码（一次性，用完即失效）
